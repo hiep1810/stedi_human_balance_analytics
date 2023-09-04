@@ -56,27 +56,27 @@ Create an aggregated table that has each of the Step Trainer Readings, and the a
 
 - [x] customer_landing.sql and your accelerometer_landing.sql script along with screenshots customer_landing (.png,.jpeg, etc.) and accelerometer_landing (.png,.jpeg, etc.)
 
-_**customer_landing.sql and accelerometer_landing.sql script:**_
+  _**customer_landing.sql and accelerometer_landing.sql script:**_
 
-- [customer_landing.sql](./scripts/customer_landing.sql)
-- [accelerometer_landing.sql](./scripts/accelerometer_landing.sql)
+  - [customer_landing.sql](./scripts/customer_landing.sql)
+  - [accelerometer_landing.sql](./scripts/accelerometer_landing.sql)
 
-_**Screenshot**_
+  _**Screenshot**_
 
-- `customer_landing` table:
+  - `customer_landing` table:
 
-    <img src="./images/customer_landing.png">
+      <img src="./images/customer_landing.png">
 
-- `accelerometer_landing` table:
+  - `accelerometer_landing` table:
 
-    <img src="./images/accelerometer_landing.png">
+      <img src="./images/accelerometer_landing.png">
 
 - [x] A screenshot of your Athena query of the customers_trusted Glue table called customer_trusted(.png,.jpeg, etc.)
 
-_**Screenshot**_
+  _**Screenshot**_
 
-- `customer_trusted` table:
+  - `customer_trusted` table:
 
-   <img src="./images/customer_trusted.png">
+      <img src="./images/customer_trusted.png">
 
-   <img src="./images/customer_trusted_check.png">
+      <img src="./images/customer_trusted_check.png">
