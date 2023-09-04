@@ -51,7 +51,7 @@ Create an aggregated table that has each of the Step Trainer Readings, and the a
 
 - [x] A Python script using Spark that creates an aggregated table that has each of the Step Trainer readings, and the associated accelerometer reading data for the same timestamp, but only for customers who have agreed to share their data, and populates a glue table called machine_learning_curated.
 
-* [machine_learning_curated.py](./scripts/machine_learning_curated.py)
+* [trainer_trusted_to_curated.py](./scripts/trainer_trusted_to_curated.py)
 * [machine_learning_curated.sql](./scripts/machine_learning_curated.sql)
 
 - [x] customer_landing.sql and your accelerometer_landing.sql script along with screenshots customer_landing (.png,.jpeg, etc.) and accelerometer_landing (.png,.jpeg, etc.)
