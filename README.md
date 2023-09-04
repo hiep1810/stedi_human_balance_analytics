@@ -1,4 +1,4 @@
-# Project Instructions
+# Project: STEDI Human Balance Analytics
 
 ## Project Instructions
 
