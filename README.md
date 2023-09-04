@@ -31,27 +31,27 @@ Create an aggregated table that has each of the Step Trainer Readings, and the a
 
 - [x] A Python script using Spark that sanitizes the Customer data from the Website (Landing Zone) and only stores the Customer Records who agreed to share their data for research purposes (Trusted Zone) - creating a Glue Table called customer_trusted.
 
-* [trusted_customer_zone.py](./scripts/trusted_customer_zone.py)
+* [customer_landing_to_trusted.py](./scripts/customer_landing_to_trusted.py)
 * [customer_trusted.sql](./scripts/customer_trusted.sql)
 
 - [x] A Python script using Spark that sanitizes the Accelerometer data from the Mobile App (Landing Zone) - and only stores Accelerometer Readings from customers who agreed to share their data for research purposes (Trusted Zone) - creating a Glue Table called accelerometer_trusted
 
-* [accelerometer_trusted_zone.py](./scripts/accelerometer_trusted_zone.py)
+* [accelerometer_landing_to_trusted_zone.py](./scripts/accelerometer_landing_to_trusted_zone.py)
 * [accelerometer_trusted.sql](./scripts/accelerometer_trusted.sql)
 
 - [x] A Python script using Spark that sanitizes the Customer data (Trusted Zone) and creates a Glue Table (Curated Zone) that only includes customers who have accelerometer data and have agreed to share their data for research called customers_curated.
 
-* [customer_curated_zone.py](./scripts/customer_curated_zone.py)
+* [trainer_trusted_to_curated.py](./scripts/trainer_trusted_to_curated.py)
 * [customer_curated.sql](./scripts/customer_curated.sql)
 
 - [x] A Python script using Spark that reads the Step Trainer IoT data stream (S3) and populates a Trusted Zone Glue Table called step_trainer_trusted containing the Step Trainer Records data for customers who have accelerometer data and have agreed to share their data for research (customers_curated).
 
-* [step_trainer_trusted_zone.py](./scripts/step_trainer_trusted_zone.py)
+* [step_trainer_landing_to_trusted.py](./scripts/step_trainer_landing_to_trusted.py)
 * [step_trainer_trusted.sql](./scripts/step_trainer_trusted.sql)
 
 - [x] A Python script using Spark that creates an aggregated table that has each of the Step Trainer readings, and the associated accelerometer reading data for the same timestamp, but only for customers who have agreed to share their data, and populates a glue table called machine_learning_curated.
 
-* [machine_learning_curated_zone.py](./scripts/machine_learning_curated_zone.py)
+* [machine_learning_curated.py](./scripts/machine_learning_curated.py)
 * [machine_learning_curated.sql](./scripts/machine_learning_curated.sql)
 
 - [x] customer_landing.sql and your accelerometer_landing.sql script along with screenshots customer_landing (.png,.jpeg, etc.) and accelerometer_landing (.png,.jpeg, etc.)
