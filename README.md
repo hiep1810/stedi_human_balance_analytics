@@ -41,7 +41,7 @@ Create an aggregated table that has each of the Step Trainer Readings, and the a
 
 - [x] A Python script using Spark that sanitizes the Customer data (Trusted Zone) and creates a Glue Table (Curated Zone) that only includes customers who have accelerometer data and have agreed to share their data for research called customers_curated.
 
-* [trainer_trusted_to_curated.py](./scripts/trainer_trusted_to_curated.py)
+* [customer_trusted_to_curated.py](./scripts/customer_trusted_to_curated.py)
 * [customer_curated.sql](./scripts/customer_curated.sql)
 
 - [x] A Python script using Spark that reads the Step Trainer IoT data stream (S3) and populates a Trusted Zone Glue Table called step_trainer_trusted containing the Step Trainer Records data for customers who have accelerometer data and have agreed to share their data for research (customers_curated).
